@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+    <style>
+        .blink {
+            animation: alternate 1s steps(5, start) infinite;
+        }
+        @keyframes alternate {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body  >
+<h1 style="color: mediumvioletred" > Phiếu điều tra thông tin</h1>
+    <form   action="" method="get">
+        <lable for="name" > Họ tên</label>
+            <input type="text" name="text" id="name" placeholder="Nhập họ tên vào đây"></lable> <br>
+        <lable for="pw"> Mật khẩu </lable>
+            <input type="password" name="text" id="pw" placeholder="Nhập mật khẩu "></lable> <br>
+        <lable for="db"> Ngày sinh</label>
+            <input type="date" name="text" id="db" </lable> <br>
+        <lable for="im"> Ảnh đại diện </lable>
+            <input type="file" name="text" id="im" </lable> <br>
+        <lable for="im"> Màu yêu thích</lable>
+            <input type="color" name="random" id="im" </lable> <br>
+        <lable>Bạn đã biết lập trình chưa </lable>
+            <select >
+                <input type="radio" name="choose" /> Rồi
+                <input type="radio" name="choose" /> Chưa <br>
+            </select>
+        <!--
+        <input type="checkbox" id="test" name="vehicle1" value="Chưa">
+        <label for="test"> Bạn đã biết lập trình chưa</label><br> -->
+
+
+
+    <button value="1" name="Gửi"  type="submit" id="u_0_i">Gửi</button>
+    <button value="1" name="Hủy"  type="submit" id="u_0_i"> Hủy</button>
+</form>
+
+</body>
+</html>
